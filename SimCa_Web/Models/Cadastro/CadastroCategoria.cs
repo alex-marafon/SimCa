@@ -15,7 +15,5 @@ namespace SimCa_Web.Models.Cadastro
         [Display(Name="Categória")]
         public string Categoria { get; set; }
 
-        public int EmpresaId { get; set; }
-        public CadastroEmpresa CadastroEmpresa { get; set; }
     }
 }

@@ -7,5 +7,9 @@ namespace SimCa_Web.Models.Cadastro
 {
     public class CadastroModelo
     {
+        public int ModeloId { get; set; }
+        public string NomeModelo { get; set; }
+        public string Descricao { get; set; }
+
     }
 }

@@ -5,7 +5,14 @@ using System.Threading.Tasks;
 
 namespace SimCa_Web.Models.Enum
 {
-    public class Tributacao
+    public enum Tributacao
     {
+        LUCRO_REAL,
+        LUCRO_PRESUMIDO,
+        SIMPLES_NACIONAL,
+        PRODUTOR_RURAL,
+        PESSOA_FÍSICA,
+        ISENTO
+
     }
 }

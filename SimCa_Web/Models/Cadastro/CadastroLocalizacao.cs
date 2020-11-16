@@ -14,7 +14,5 @@ namespace SimCa_Web.Models.Cadastro
         [Display(Name = "Local (Armazenamento Fisico) ")]
         public string LocalArmazenado { get; set; }
 
-        public int EmpresaId { get; set; }
-        public CadastroEmpresa CadastroEmpresa { get; set; }
     }
 }
