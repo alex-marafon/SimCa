@@ -25,8 +25,6 @@ namespace SimCa_Web.Models.Empresa
 
         public Tributacao Tributacao { get; set; }
 
-
-
         public ICollection<CadastroMunicipio> cadastroMunicipios { get; set; }
 
         public int CodigoClinteGrupo { get; set; }
