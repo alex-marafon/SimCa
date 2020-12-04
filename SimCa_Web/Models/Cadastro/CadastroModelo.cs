@@ -11,7 +11,6 @@ namespace SimCa_Web.Models.Cadastro
         [Key]
         public int ModeloId { get; set; }
         [Display(Name ="Nome Modelo")]
-        []
         public string NomeModelo { get; set; }
         public string Descricao { get; set; }
 
