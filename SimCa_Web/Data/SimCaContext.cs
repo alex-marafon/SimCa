@@ -14,6 +14,6 @@ namespace SimCa_Web.Data
         {
         }
 
-        public DbSet<SimCa_Web.Models.Cadastro.CadastroCategoria> CadastroCategoria { get; set; }
+        public DbSet<SimCa_Web.Models.Cadastro.Categoria> CadastroCategoria { get; set; }
     }
 }

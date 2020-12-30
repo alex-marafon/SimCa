@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimCa_Web.Models.Cadastro
 {
-    public class CadastroMunicipio
+    public class Municipio
     {
         [Key]
         public int MunicipioId { get; set; }

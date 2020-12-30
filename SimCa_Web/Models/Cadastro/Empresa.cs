@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SimCa_Web.Models.Empresa
 {
-    public class CadastroEmpresa
+    public class Empresa
     {
         [Key]
         public int EmpresaId { get; set; }
@@ -55,7 +55,7 @@ namespace SimCa_Web.Models.Empresa
         public Tributacao Tributacao { get; set; }
 
        
-        public ICollection<CadastroMunicipio> cadastroMunicipios { get; set; }
+        public ICollection<Municipio> cadastroMunicipios { get; set; }
 
         public int CodigoClinteGrupo { get; set; }
 

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace SimCa_Web.Models.Cadastro
 {
-    public class CadastroCategoria
+    public class Categoria
     {
         [Key]
-        public int CategoriaId{ get; set; }
+        public int CategoriaId { get; set; }
 
-        [Display(Name="Categória")]
-        public string Categoria { get; set; }
+        [Display(Name="Descrição Categória")]
+        public string CategoriaDescricao { get; set; }
 
     }
 }

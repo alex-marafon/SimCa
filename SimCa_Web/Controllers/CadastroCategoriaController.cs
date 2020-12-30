@@ -54,7 +54,7 @@ namespace SimCa_Web.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CategoriaId,Categoria")] CadastroCategoria cadastroCategoria)
+        public async Task<IActionResult> Create([Bind("CategoriaId,Categoria")] Categoria cadastroCategoria)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace SimCa_Web.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CategoriaId,Categoria")] CadastroCategoria cadastroCategoria)
+        public async Task<IActionResult> Edit(int id, [Bind("CategoriaId,Categoria")] Categoria cadastroCategoria)
         {
             if (id != cadastroCategoria.CategoriaId)
             {

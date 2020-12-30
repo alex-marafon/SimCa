@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SimCa_Web.Models.Cadastro
 {
-    public class CadastroUsuario
+    public class Usuario
     {
         [Key]
         public int UsuarioId { get; set; }
@@ -31,6 +31,7 @@ namespace SimCa_Web.Models.Cadastro
         public TipoUsuario TipoUsuario { get; set; }
     }
 
+    
 
     
 }
